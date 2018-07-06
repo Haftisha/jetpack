@@ -36,6 +36,13 @@ if [ "$WP_TRAVISCI" == "phpunit" ]; then
     else
         exit 1
     fi
+elif [ "$WP_TRAVISCI" == "yarn php:5.2-compatibility" ]; then
+    if $WP_TRAVISCI; then
+	# Everything is fine
+	:
+    else
+        exit 1
+    fi
 else
 
     gem install sass
