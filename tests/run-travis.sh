@@ -45,8 +45,6 @@ elif [ "$WP_TRAVISCI" == "yarn php:5.2-compatibility" ]; then
     fi
 else
 
-    gem install sass
-    gem install compass
     yarn
 
     if $WP_TRAVISCI; then
