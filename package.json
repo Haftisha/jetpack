@@ -82,7 +82,7 @@
     "file-loader": "^1.1.5",
     "focus-trap": "^2.3.1",
     "grunt-cli": "^1.2.0",
-    "gulp": "^3.9.0",
+    "gulp": "^5.0.0",
     "gulp-autoprefixer": "^3.0.2",
     "gulp-babel": "7.0.0",
     "gulp-banner": "^0.1.3",
