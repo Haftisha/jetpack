@@ -68,7 +68,7 @@
     "create-react-class": "^15.6.2",
     "cross-env": "^5.0.1",
     "css-loader": "0.23.1",
-    "del": "^2.2.0",
+    "del": "^8.0.0",
     "es6-promise": "3.0.2",
     "eslint": "3.8.1",
     "eslint-config-wpcalypso": "0.7.1",
